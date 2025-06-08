@@ -6,6 +6,7 @@
 #*   @title       : Employee Data Management System
 #***************************************************************************
 #*/
+
 class Employee:
     def __init__(self, emp_id, name, salary):
         self.emp_id = emp_id
@@ -137,3 +138,7 @@ while True:
         break
     else:
         print("Invalid choice. Please select a valid option.")
+
+
+# Copyright 2024 by Mohamed Montasser.
+# All rights reserved.
